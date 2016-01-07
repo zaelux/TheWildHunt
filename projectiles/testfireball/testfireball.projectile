@@ -16,7 +16,7 @@
     },
     {
       "action" : "projectile",
-      "type" : "molotovflame",
+      "type" : "testfires",
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 0.25,
       "angleAdjust" : 35

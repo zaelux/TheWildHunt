@@ -1,0 +1,29 @@
+{
+  "kind" : "testeffectsource",
+  "definition" : {
+    "duration" : 0.2,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "testdust1", "testfireflames", "testfireflames", "testdust2" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "testdust3", "testdust3", "testdust3", "testdust3" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

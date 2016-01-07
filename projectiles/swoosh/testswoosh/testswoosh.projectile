@@ -11,7 +11,7 @@
   "piercing" : true,
   "flippable" : true,
   "damageKind" : "firebroadsword",
-  "color" : "orange",
+  "color" : "blue",
   "emitters" : [ "fireswoosh" ],
   "knockback" : 25,
   "knockbackDirectional" : true,
