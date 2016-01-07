@@ -94,10 +94,10 @@
           "baseValue" : 1.0
         },
         "maxHealth" : {
-          "baseValue" : 10000
+          "baseValue" : 200
         },
         "protection" : {
-          "baseValue" : 40.0
+          "baseValue" : 0.0
         },
         "healthRegen" : {
           "baseValue" : 0.0
@@ -151,21 +151,21 @@
             },
             {
               "action" : "projectile",
-              "type" : "dreadwreckage",
+              "type" : "testfireball",
               "inheritDamageFactor" : 0.2,
               "fuzzAngle" : 30,
               "angleAdjust" : 0
             },
             {
               "action" : "projectile",
-              "type" : "dreadwreckage",
+              "type" : "testfireball",
               "inheritDamageFactor" : 0.2,
               "fuzzAngle" : 30,
               "angleAdjust" : 45
             },
             {
               "action" : "projectile",
-              "type" : "dreadwreckage",
+              "type" : "testfireball",
               "inheritDamageFactor" : 0.2,
               "fuzzAngle" : 30,
               "angleAdjust" : -45
@@ -175,28 +175,6 @@
 
         "fireTime" : 8.0,
         "fireInterval" : 0.2,
-        "cooldown" : 0.1
-      },
-
-      "blockbreaker" : {
-        "type" : "invisibleprojectile",
-        "config" : {
-          "speed" : 0.1,
-          "power" : 0,
-
-          "actionOnReap" : [
-            {
-              "action" : "explosion",
-              "foregroundRadius" : 6,
-              "backgroundRadius" : 0,
-              "explosiveDamageAmount" : 100,
-              "delaySteps" : 1
-            }
-          ]
-        },
-
-        "fireTime" : 0.2,
-        "fireInterval" : 0.1,
         "cooldown" : 0.1
       }
     }
