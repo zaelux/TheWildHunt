@@ -1,9 +1,0 @@
-{
-  "name" : "ufo",
-  "category" : "testBoss",
-  "type" : "ufo",
-
-  "frames" : {
-    "ufo" : "ufo.png"
-  }
-}
