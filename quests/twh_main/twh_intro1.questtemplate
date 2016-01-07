@@ -1,0 +1,19 @@
+{
+  "id" : "twh_intro1.gearup",
+  "title" : "Something Different",
+  "text" : "...",
+  "completionText" : "...",
+  "speaker" : "questGiver",
+  "moneyRange" : [1000, 3000],
+  "rewards" : [],
+  "completionCinema" : "/cinematics/coordinates.cinematic",
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "followUp" : "twh_intro2.gearup",
+    "associatedMission" : "twh_outpost",
+    "requireTurnIn" : true
+  }
+}

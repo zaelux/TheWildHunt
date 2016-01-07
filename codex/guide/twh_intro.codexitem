@@ -1,0 +1,10 @@
+{
+  "codexId" : "twh_intro",
+  "title" : "[TWH] It Begins",
+  "codexkind" : "codex",
+  "inventoryIcon" : "twh_intro.png",
+  "itemName" : "twh_introCodex",
+  "rarity" : "common",
+  "description" : "An odd looking rugged book. I wonder what it contains?",
+  "shortdescription" : "Strange Book"
+}

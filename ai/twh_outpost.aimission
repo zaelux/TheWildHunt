@@ -1,0 +1,21 @@
+{
+  "missionName" : "twh_outpost",
+  "icon" : "twh_outpost_icon.png",
+  "missionWorld" : "huntersdreamoutpost",
+
+  "speciesText" : 
+    {
+    "default" : 
+      {
+      "buttonText" : "The Hunters' Dream",
+      "repeatButtonText" : "The Hunters' Dream",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The Hunters' Dream is the perfect place for every bounty hunter in the universe!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[
+{
+  "op": "add",
+  "path": "/huntersdreamoutpost",
+  "value": 
+    {
+   	  "primaryDungeon":"huntersdreamoutpost",
+      "threatLevel":1,
+      "gravity":100,
+      "worldSize":[2000,1000],
+      "dungeonBaseHeight":500,
+      "ambientLightLevel":[255,255,255],
+      "musicTrack" : "/music/casiopeia.ogg"
+    }
+}
+]
