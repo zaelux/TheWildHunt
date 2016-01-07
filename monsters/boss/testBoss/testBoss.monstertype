@@ -1,7 +1,7 @@
 {
   "type" : "testBoss",
 
-  "categories" : [ "testBoss" ],
+  "categories" : [ "penguinUfo" ],
   "parts" : [ "ufo", "pilot" ],
 
   "animation" : "testBoss.animation",
@@ -94,22 +94,13 @@
           "baseValue" : 1.0
         },
         "maxHealth" : {
-          "baseValue" : 10000
+          "baseValue" : 200
         },
         "protection" : {
-          "baseValue" : 40.0
+          "baseValue" : 10.0
         },
         "healthRegen" : {
           "baseValue" : 0.0
-        },
-        "poisonImmunity" : {
-          "baseValue" : 1.0
-        },
-        "fireImmunity" : {
-          "baseValue" : 1.0
-        },
-        "stunImmunity" : {
-          "baseValue" : 1.0
         }
       },
 
