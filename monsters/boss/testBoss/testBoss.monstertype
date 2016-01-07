@@ -94,12 +94,21 @@
           "baseValue" : 1.0
         },
         "maxHealth" : {
-          "baseValue" : 200
+          "baseValue" : 10000
         },
         "protection" : {
-          "baseValue" : 10.0
+          "baseValue" : 40.0
         },
         "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "poisonImmunity" : {
+          "baseValue" : 0.0
+        },
+        "fireImmunity" : {
+          "baseValue" : 0.0
+        },
+        "stunImmunity" : {
           "baseValue" : 0.0
         }
       },
