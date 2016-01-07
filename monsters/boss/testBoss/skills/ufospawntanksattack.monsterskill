@@ -1,0 +1,64 @@
+{
+  "name" : "ufoSpawnTanksAttack",
+  "label" : "ARTILLERY CALL",
+  "image" : "/monsters/generated/ground/skills/icon.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/boss/penguinUfo/skills/ufoSpawnTanksAttack.lua" ],
+
+    "ufoSpawnTanksAttack" : {
+      "cooldownTime" : 10,
+
+      "spawnDistance" : 30,
+
+
+      //TODO: Make .projectile files for these
+      "projectiles" : {
+        "tankspawn" : {
+          "type" : "penguinufocharge",
+          "config" : {
+            "speed" : 0.1,
+            "power" : 20,
+            "actionOnReap" : [
+              {
+                "action" : "projectile",
+                "type" : "penguinufobeam",
+                "direction" : [0.0, -1.0],
+                "config" : {
+                  "movementSettings" : {
+                    "gravityMultiplier" : 0.0,
+                    "bounceFactor" : 0.0,
+                    "maxMovementPerStep" : 0.4,
+                    "maximumCorrection" : 999,
+                    "collisionPoly" : [ [-3.0, -2.875], [2.0, -2.875], [2.0, 2.875], [-2.0, 2.875] ],
+                    "ignorePlatformCollision" : true,
+
+                    "airFriction" : 0.0,
+                    "liquidFriction" : 0.0
+                  },
+                  "actionOnReap" : [
+                    {
+                      "action" : "spawnmonster",
+                      "type" : "penguinTank",
+                      "level" : 3,
+                      "offset" : [-0.5, 1.25],
+                      "particle" : {
+                        "type" : "animated",
+                        "animation" : "/animations/penguintankspawn/penguintankspawn.animation",
+                        "destructionTime" : 15,
+                        "flip" : true,
+                        "position" : [-1, 0.75],
+                        "timeToLive" : 0.2667,
+                        "layer" : "front"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
