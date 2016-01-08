@@ -12,7 +12,7 @@
   "flippable" : true,
   "damageKind" : "firebroadsword",
   "color" : "blue",
-  "emitters" : [ "fireswoosh" ],
+  "emitters" : [ "testfireeffectsource" ],
   "knockback" : 25,
   "knockbackDirectional" : true,
 
