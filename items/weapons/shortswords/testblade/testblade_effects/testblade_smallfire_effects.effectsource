@@ -1,0 +1,29 @@
+{
+  "kind" : "testblade_smallfire_effects",
+  "definition" : {
+    "duration" : 0.2,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "testblade_tinyfire", "testblade_tinyember", "testblade_tinyember", "testblade_tinydust_2" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "testblade_tinydust", "testblade_tinydust", "testblade_tinydust", "testblade_tinydust" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

@@ -3,9 +3,9 @@
   "level" : 1,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "legendary",
-  "description" : "Forged from the fires of hell itself.",
-  "shortdescription" : "Hellfire Short Blade",
+  "rarity" : "common",
+  "description" : "test description",
+  "shortdescription" : "test short description",
   "inspectionKind" : "sword",
   "tooltipKind" : "sword",
   "kind" : "Shortsword",
@@ -19,7 +19,7 @@
 
   "primaryStances" : {
     "directional" : true,
-    "projectileType" : "testswoosh",
+    "projectileType" : "testblade_swoosh",
     "projectile" : {
       "speed" : 0.1,
       "power" : 5
