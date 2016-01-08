@@ -7,12 +7,12 @@
   "frameNumber" : 4,
   "pointLight" : true,
   "damagePoly" : [ [-28, 0], [0, 12], [16, 16], [28, 0], [-16, -16], [0, -12] ],
-  "lightColor" : [255, 113, 0],
+  "lightColor" : [0, 113, 255],
   "speed" : 50,
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2.config"
+      "file" : "/projectiles/explosions/regularexplosion2/testexplosion.config"
     },
     {
       "action" : "projectile",
@@ -23,7 +23,7 @@
     }
   ],
   "damageKind" : "default",
-  "emitters" : [ "fireflames" ]
+  "emitters" : [ "testfireflames" ]
 }
 
 

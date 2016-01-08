@@ -20,7 +20,7 @@
     {
       "action" : "projectile",
       "type" : "testfireball",
-      "color" : "orange",
+      "color" : "blue",
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 0.25
     }

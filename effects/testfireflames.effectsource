@@ -1,0 +1,29 @@
+{
+  "kind" : "testfireflames",
+  "definition" : {
+    "duration" : 1,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "testdust1", "testfireflames", "testdust2" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "testdust3", "testdust3" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

@@ -10,7 +10,7 @@
     "destructionAction" : "shrink",
     "destructionTime" : 0.425,
     "fade" : 1,
-    "light" : [191, 103, 2],
+    "light" : [2, 103, 191],
     "size" : 0.5,
     "layer" : "middle",
     "timeToLive" : 0.425,
