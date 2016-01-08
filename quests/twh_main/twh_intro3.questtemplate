@@ -1,0 +1,22 @@
+{
+  "id" : "twh_intro3.gearup",
+  "prerequisites" : [ "twh_intro2.gearup" ],
+  "title" : "^blue;A New Hobby",
+  "text" : "^green;t^yellow;e^black;x^red;t",
+  "completionText" : "completed text",
+  "speaker" : "questGiver",
+  "moneyRange" : [1000, 3000],
+  "rewards" : [
+    [ [ "huntersstation", 1 ] ]
+  ],
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "requireTurnIn" : true
+  }
+}
+
+ 
+

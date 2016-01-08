@@ -8,5 +8,10 @@
   	"op" : "add",
   	"path" : "/turnInQuests/-",
   	"value" : "twh_intro1.gearup"
+  },
+  {
+    "op" : "add",
+    "path" : "/turnInQuests/-",
+    "value" : "twh_intro2.gearup"
   }
 ]

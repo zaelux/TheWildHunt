@@ -1,8 +1,12 @@
 {
   "id" : "twh_intro1.gearup",
-  "title" : "Something Different",
-  "text" : "...",
-  "completionText" : "...",
+  "title" : "^red;L... Leather?",
+  "text" : "Ugh, it's you... What do you want?
+What!?-- You're telling me you saw an icon above my head and thought I would give you a 'quest'? You must be drunk.
+*sigh* Fine... Go and ^green;bring me ^white;some ^orange;Leather^white;.
+I will, ofcourse, reward you nicely. Why I need it? For Academic Purposes...",
+  "completionText" : "Oh my! You actually did it... I'm impressed you're capable of killing some weak animals.
+How about I give you something more... ^green;Challenging.",
   "speaker" : "questGiver",
   "moneyRange" : [1000, 3000],
   "rewards" : [],
@@ -12,8 +16,16 @@
   "updateDelta" : 10,
   "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
-    "followUp" : "twh_intro2.gearup",
+  	"followUp" : "twh_intro2.gearup",
     "associatedMission" : "twh_outpost",
-    "requireTurnIn" : true
+    "requireTurnIn" : true,
+    "gatherRequirements" : {
+      "items" : {
+        "leather" : {
+          "count" : 1,
+          "consume" : true
+        }
+      }
+    }
   }
 }

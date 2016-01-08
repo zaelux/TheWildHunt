@@ -1,20 +1,36 @@
 {
   "id" : "twh_intro2.gearup",
   "prerequisites" : [ "twh_intro1.gearup" ],
-  "title" : "A New Hobby",
-  "text" : "...",
-  "completionText" : "...",
+  "title" : "^red;Something Different",
+  "text" : "Interested in more? Hmmm....
+
+The leather you got me before wasn't rough enough. Luckily, I recently discovered where you can find higher quality leather.
+
+Head over there and ^green;bring me ^white;some ^orange;Rough Leather ^white;this time.",
+  "completionText" : "Well, well, well...
+Seems like we got ourselves a newbie hunter.
+Good job on collecting this leather, I guess...
+You know what? I got just the right task for you!",
   "speaker" : "questGiver",
-  "moneyRange" : [10000, 20000],
-  "rewards" : [
-    [ [ "huntersstation", 1 ] ]
-  ],
+  "moneyRange" : [1000, 3000],
+  "rewards" : [],
+  "completionCinema" : "/cinematics/coordinates.cinematic",
   "canBeAbandoned" : false,
 
   "updateDelta" : 10,
   "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
-    "requireTurnIn" : true
+    "followUp" : "twh_intro3.gearup",
+    "associatedMission" : "twh_outpost",
+    "requireTurnIn" : true,
+    "gatherRequirements" : {
+      "items" : {
+        "roughleather" : {
+          "count" : 1,
+          "consume" : true
+        }
+      }
+    }
   }
 }
 
