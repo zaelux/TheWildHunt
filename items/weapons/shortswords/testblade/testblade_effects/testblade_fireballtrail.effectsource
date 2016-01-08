@@ -1,0 +1,29 @@
+{
+  "kind" : "testblade_fireballtrail",
+  "definition" : {
+    "duration" : 1,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "testblade_dust_1", "testblade_smallfire", "testblade_dust_2" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "testblade_tinydust", "testblade_tinydust" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

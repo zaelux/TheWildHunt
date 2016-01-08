@@ -1,0 +1,29 @@
+{
+  "kind" : "testblade_initialflame",
+  "definition" : {
+    "duration" : 0.3,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "testblade_smallfire", "testblade_ember", "testblade_dust_1", "testblade_smallfire", "testblade_ember", "testblade_dust_1", "testblade_smallfire", "testblade_ember", "testblade_dust_1" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "testblade_smallfire", "testblade_ember", "testblade_dust_1", "testblade_smallfire", "testblade_ember", "testblade_dust_1", "testblade_smallfire", "testblade_ember", "testblade_dust_1" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "testblade_dust_2", "testblade_dust_2", "testblade_dust_2", "testblade_dust_2", "testblade_dust_2", "testblade_dust_2" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

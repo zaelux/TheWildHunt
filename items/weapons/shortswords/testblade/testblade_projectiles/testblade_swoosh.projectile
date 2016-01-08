@@ -1,6 +1,6 @@
 {
-  "projectileName" : "testswoosh",
-  "frames" : "testswoosh.png",
+  "projectileName" : "testblade_swoosh",
+  "frames" : "testblade_swoosh.png",
   "animationCycle" : 0.07,
   "frameNumber" : 3,
   "level" : 1,
@@ -11,16 +11,16 @@
   "piercing" : true,
   "flippable" : true,
   "damageKind" : "firebroadsword",
-  "color" : "orange",
-  "emitters" : [ "fireswoosh" ],
+  "color" : "blue",
+  "emitters" : [ "testblade_initialflame" ],
   "knockback" : 25,
   "knockbackDirectional" : true,
 
   "actionOnReap" : [
     {
       "action" : "projectile",
-      "type" : "testfireball",
-      "color" : "orange",
+      "type" : "testblade_fireball",
+      "color" : "blue",
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 0.25
     }

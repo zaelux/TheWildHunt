@@ -6,7 +6,7 @@
 
   "animation" : "lumi.animation",
 
-  "dropPools" : [ { "default" : "testmonsterLoot", "bow" : "lumothHunting" } ],
+  "dropPools" : [ { "default" : "testmonsterLoot", "bow" : "testmonsterLoot" } ],
 
   "baseParameters" : {
     "scripts" : [

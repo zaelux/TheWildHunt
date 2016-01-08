@@ -3,7 +3,7 @@
     { "item" : "roughleather", "count" : 1 }
   ],
 
-  "output" : { "item" : "huntersspear", "count" : 1 },
+  "output" : { "item" : "testblade", "count" : 1 },
 
   "groups" : [ "huntersstation" ]
 }
