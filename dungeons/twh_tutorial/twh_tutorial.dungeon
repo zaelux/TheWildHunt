@@ -1,0 +1,100 @@
+{
+
+  "metadata" : {
+    "name" : "twh_tutorial",
+    "species" : "generic",
+    "rules" : [],
+    "anchor" : [ "twh_tutorial" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+
+
+  "tiles" : [
+
+  // REQUIRED STUFF (DO NOT REMOVE)
+
+		{
+		  "value" : [255, 0, 220, 255],
+		  "comment" : "magic pinkppp, a no-op value"
+		},
+		{
+		  "value" : [0, 0, 0, 255],
+		  "rules" : [ [ "worldGenMustContainAirBackground" ], [ "allowOverdrawing" ] ],
+		  "brush" : [ [ "clear" ] ]
+		},
+
+  // END OF REQUIRED STUFF
+
+
+  // NPCS
+
+    {
+      "value" : [255, 0, 0, 255],
+      "comment" : "Lumi",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "lumi",
+            "parameters" : {
+              "aggressive" : true,
+              "level" : 1
+            }
+          }
+        ] ]
+    },
+
+  // END OF NPCS
+
+
+  // OBJECTS
+
+    {
+      "value" : [0, 255, 0, 255],
+      "comment" : "Player Spawn",
+      "brush" : [ [ "playerstart" ] ]
+    },
+    {
+      "value" : [0, 255, 1, 255],
+      "comment" : "Exit Teleporter",
+      "brush" : [ [ "clear" ], [ "object", "exitteleporter" ] ]
+    },
+
+  // END OF OBJECTS
+
+
+  // TILES
+
+    {
+      "value" : [69, 69, 69, 255],
+      "comment" : "Foreground MeteoriteRock",
+      "brush" : [ [ "clear" ], [ "back", "meteoriterock" ], [ "front", "meteoriterock" ] ]
+    },
+    {
+      "value" : [68, 56, 32, 255],
+      "comment" : "Foreground Ancientblock",
+      "brush" : [ [ "clear" ], [ "back", "ancientblock" ], [ "front", "ancientblock" ] ]
+    },
+    {
+      "value" : [36, 30, 18, 255],
+      "comment" : "Background Ancientblock",
+      "brush" : [ [ "clear" ], [ "back", "ancientblock" ] ]
+    }
+
+  // END OF TILES
+
+  ],
+
+
+  // FILES THAT ARE PUT TOGETHER
+
+    "parts" : [
+      {
+        "name" : "twh_tutorial",
+        "rules" : [ [ "maxSpawnCount", [1] ] ],
+        "def" : [ "image", [ "twh_tutorial.png", "twh_tutorial-objects.png", "twh_tutorial-liquids.png", "twh_tutorial-wires.png" ] ]
+      }
+    ]
+}
