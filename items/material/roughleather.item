@@ -1,8 +1,0 @@
-{
-  "itemName" : "roughleather",
-  "price" : 5,
-  "rarity" : "common",
-  "inventoryIcon" : "roughleather.png",
-  "description" : "A square of rough leather.",
-  "shortdescription" : "Rough Leather"
-}

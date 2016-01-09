@@ -1,9 +1,0 @@
-{
-  "name" : "lumi",
-  "category" : "lumi",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "lumi.png"
-  }
-}
