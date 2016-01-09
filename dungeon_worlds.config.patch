@@ -1,0 +1,31 @@
+[
+{
+  "op": "add",
+  "path": "/twh_outpost",
+  "value": 
+    {
+   	  "primaryDungeon":"twh_outpost",
+      "threatLevel":1,
+      "gravity":100,
+      "worldSize":[2000,1000],
+      "dungeonBaseHeight":500,
+      "ambientLightLevel":[255,255,255],
+      "musicTrack" : "/music/casiopeia.ogg"
+    }
+},
+{
+  "op": "add",
+  "path": "/twh_tutorial",
+  "value": 
+    {
+      "primaryDungeon":"twh_tutorial",
+      "threatLevel":1,
+      "gravity":100,
+      "worldSize":[2000,1000],
+      "dungeonBaseHeight":500,
+      "ambientLightLevel":[255,255,255],
+      "biome" : "lunarbase",
+      "musicTrack" : "/music/temple-of-kluex.ogg"
+    }
+}
+]
