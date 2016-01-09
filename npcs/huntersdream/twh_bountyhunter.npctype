@@ -1,0 +1,28 @@
+{
+  "type" : "twh_bountyhunter",
+  "baseType" : "outpostcivilian",
+
+  "scriptConfig" : {
+    "offeredQuests" : [],
+    "turnInQuests" : [ "twh_intro3.gearup" ],
+
+	"dialog" : {
+	  "converse" : {
+		"default" : {
+		  "default" : [
+		  "How did you even get here, weakling!"
+		  ]
+		}
+	  }
+	}
+  },
+
+  "items" : {
+    "override" : [ [0, [ { 
+      "head" : [ { "name" : "glitchtier3head", "parameters" : { "colorIndex" : 2 } } ],
+      "chest" : [ { "name" : "glitchtier3chest", "parameters" : { "colorIndex" : 2 } } ],
+      "legs" : [ { "name" : "glitchtier3pants", "parameters" : { "colorIndex" : 2 } } ],
+      "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 2 } } ]
+		} ] ] ]
+  }
+}
