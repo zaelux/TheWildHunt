@@ -5,8 +5,23 @@
     "value" : "twh_intro1.gearup"
   },
   {
+    "op" : "add",
+    "path" : "/offeredQuests/-",
+    "value" : "twh_intro2.gearup"
+  },
+  {
+    "op" : "add",
+    "path" : "/offeredQuests/-",
+    "value" : "twh_intro3.gearup"
+  },
+  {
   	"op" : "add",
   	"path" : "/turnInQuests/-",
   	"value" : "twh_intro1.gearup"
+  },
+  {
+    "op" : "add",
+    "path" : "/turnInQuests/-",
+    "value" : "twh_intro2.gearup"
   }
 ]

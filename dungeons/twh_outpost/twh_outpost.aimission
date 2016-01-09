@@ -1,7 +1,7 @@
 {
   "missionName" : "twh_outpost",
-  "icon" : "twh_outpost_icon.png",
-  "missionWorld" : "huntersdreamoutpost",
+  "icon" : "twh_outpost.png",
+  "missionWorld" : "twh_outpost",
 
   "speciesText" : 
     {

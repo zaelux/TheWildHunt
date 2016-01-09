@@ -1,13 +1,10 @@
 {
 
-// CREDIT TO ECHALION (A.K.A GABRIEL, A.K.A ZAELUX) FOR CREATING THE HUNTERS DREAM DUNGEON FILE
-// PLEASE DO GIVE CREDIT WHERE IT IS DESERVED (THANKS IN ADVANCE)
-
   "metadata" : {
-    "name" : "huntersdreamoutpost",
+    "name" : "twh_tutorial",
     "species" : "generic",
     "rules" : [],
-    "anchor" : [ "huntersdreamoutpost" ],
+    "anchor" : [ "twh_tutorial" ],
     "gravity" : 80,
     "maxRadius" : 1000000,
     "maxParts" : 100,
@@ -35,19 +32,8 @@
   // NPCS
 
     {
-      "value" : [255, 255, 0, 255],
-      "comment" : "Temporary Bounty Hunter",
-      "brush" : [ [ "npc",
-          {
-            "kind" : "npc",
-            "species" : "human",
-            "typeName" : "twh_bountyhunter"
-          }
-        ] ]
-    },
-    {
       "value" : [255, 0, 0, 255],
-      "comment" : "test for loot",
+      "comment" : "Lumi",
       "brush" : [ [ "npc",
           {
             "kind" : "monster",
@@ -72,8 +58,8 @@
     },
     {
       "value" : [0, 255, 1, 255],
-      "comment" : "2stoptele",
-      "brush" : [ [ "clear" ], [ "object", "2stoptele", { "parameters" : { "interactData" : "/interface/warping/outpostteleporter.config", "teleporterUniqueId" : "outpost" } } ] ]
+      "comment" : "Exit Teleporter",
+      "brush" : [ [ "clear" ], [ "object", "exitteleporter" ] ]
     },
 
   // END OF OBJECTS
@@ -106,9 +92,9 @@
 
     "parts" : [
       {
-        "name" : "huntersdreamoutpost",
+        "name" : "twh_tutorial",
         "rules" : [ [ "maxSpawnCount", [1] ] ],
-        "def" : [ "image", [ "huntersdreamoutpost.png", "huntersdreamoutpost-objects.png", "huntersdreamoutpost-liquids.png", "huntersdreamoutpost-wires.png" ] ]
+        "def" : [ "image", [ "twh_tutorial.png", "twh_tutorial-objects.png", "twh_tutorial-liquids.png", "twh_tutorial-wires.png" ] ]
       }
     ]
 }

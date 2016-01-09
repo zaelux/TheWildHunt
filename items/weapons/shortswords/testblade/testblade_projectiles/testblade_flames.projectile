@@ -18,7 +18,6 @@
     }
   ],
   "damageKind" : "fire",
-  "damageTeam" : { "type" : "indiscriminate" },
   "damageKindImage" : "/interface/statuses/fire.png",
   "statusEffects" : [
     "burning"
