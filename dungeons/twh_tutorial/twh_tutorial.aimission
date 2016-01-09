@@ -1,0 +1,21 @@
+{
+  "missionName" : "twh_tutorial",
+  "icon" : "twh_tutorial.png",
+  "missionWorld" : "twh_tutorial",
+
+  "speciesText" : 
+    {
+    "default" : 
+      {
+      "buttonText" : "Your First Hunt",
+      "repeatButtonText" : "Your First Hunt",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "You want to go there? I have never even heard of that place before...",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

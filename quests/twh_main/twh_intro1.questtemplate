@@ -4,20 +4,17 @@
   "text" : "Ugh, it's you... What do you want?
 What!?-- You're telling me you saw an icon above my head and thought I would give you a 'quest'? You must be drunk.
 *sigh* Fine... Go and ^green;bring me ^white;some ^orange;Leather^white;.
-I will, ofcourse, reward you nicely. Why I need it? For Academic Purposes...",
+I will, ofcourse, reward you nicely. Why do I need it? For Academic Purposes...",
   "completionText" : "Oh my! You actually did it... I'm impressed you're capable of killing some weak animals.
-How about I give you something more... ^green;Challenging.",
+How about I give you something more... ^yellow;Challenging^white;.",
   "speaker" : "questGiver",
   "moneyRange" : [1000, 3000],
   "rewards" : [],
-  "completionCinema" : "/cinematics/coordinates.cinematic",
   "canBeAbandoned" : false,
 
   "updateDelta" : 10,
   "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
-  	"followUp" : "twh_intro2.gearup",
-    "associatedMission" : "twh_outpost",
     "requireTurnIn" : true,
     "gatherRequirements" : {
       "items" : {
