@@ -1,0 +1,26 @@
+{
+  "projectileName" : "testblade_flames",
+  "physics" : "grenadenobounce",
+  "bounces" : -1,
+  "timeToLive" : 10,
+  "speed" : 15,
+  "frames" : "testblade_flames.png",
+  "animationCycle" : 0.8,
+  "lightColor" : [2, 126, 235],
+  "frameNumber" : 8,
+  "emitters" : [ "testblade_smallfire_effects" ],
+  "piercing" : true,
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+  "damageKind" : "fire",
+  "damageKindImage" : "/interface/statuses/fire.png",
+  "statusEffects" : [
+    "burning"
+  ],
+  "hydrophobic" : true
+}

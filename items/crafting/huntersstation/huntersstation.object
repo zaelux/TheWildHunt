@@ -1,0 +1,60 @@
+{
+  "objectName" : "huntersstation",
+  "colonyTags" : ["crafting"],
+  "rarity" : "common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "The Hunters' Table",
+        "subtitle" : "Quality Items",
+        "icon" : {
+          "file" : "/interface/crafting/huntersstation.png"
+        }
+      }
+    },
+    "filter" : [ "huntersstation" ]
+  },
+  "printable" : false,
+  "description" : "A station to craft good stuff at, specifically for hunters.",
+  "shortdescription" : "A hunter's station.",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 300,
+
+  "inventoryIcon" : "huntersstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "huntersstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "huntersstationlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 20,
+      "animationCycle" : 2.0,
+      
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "lightPosition" : [ -1, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "imageLayers" : [ { "image" : "huntersstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "huntersstationlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 20,
+      "animationCycle" : 2.0,
+      
+      "direction" : "right",
+      
+      "lightPosition" : [ 0, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
